@@ -1,0 +1,13 @@
+depth:
+  ckpt: "D:/Python/Python Project/Depth-Anything-V2/checkpoints/depth_anything_v2_vitb.pth"
+  encoder: "vitb"
+
+seg:
+  ckpt: "D:/Python/repo/sam2/checkpoints/sam2_hiera_s.pth" #absolut path
+  cfg: "sam2.1/sam2.1_hiera_s.yaml" #relative path
+
+summarizer:
+  danger_thr: 1.5
+
+vlm:
+  model_id: "Qwen/Qwen2-VL-2B-Instruct"
